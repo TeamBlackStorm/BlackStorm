@@ -1,0 +1,4 @@
+# blackstorm - UserBot
+# Copyright (C) 2021 TeamBlackStorm
+#
+bash resources/session/session.sh
