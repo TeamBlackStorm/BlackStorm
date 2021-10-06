@@ -88,26 +88,16 @@ Further, take a look at the [`docs`](https://blue-devil1134.github.io/UltroidCli
 
 ## Necessary Variables
 - `SESSION` - SessionString for your accounts login session. Get it from [here](#Session-String)
-- `REDIS_URI` - Redis endpoint URL, from [redislabs](http://redislabs.com/), tutorial [here.](./resources/extras/redistut.md)
-- `REDIS_PASSWORD ` - Redis endpoint Password, from [redislabs](http://redislabs.com/), tutorial [here.](./resources/extras/redistut.md)
+- `REDIS_URI` - Redis endpoint URL, from [redislabs](http://redislabs.com/),
+- `REDIS_PASSWORD ` - Redis endpoint Password, from [redislabs](http://redislabs.com/),
 
 ## Session String
 Different ways to get your `SESSION`:
-* [![Run on Repl.it](https://replit.com/badge/github/TeamUltroid/Ultroid)](https://replit.com/@TeamUltroid/UltroidStringSession)
-* Linux : `bash -c "$(curl -fsSL https://git.io/JY9JI)"`
-* PowerShell : `cd desktop ; wget https://git.io/JY9JI ; python ultroid.py`
-* Termux : `sh -c "$(curl -fsSL https://da.gd/termux-tel)"`
-* TelegramBot : [@SessionGeneratorBot](https://t.me/SessionGeneratorBot)
+* [![Run on Repl.it](https://replit.com/badge/github/TeamBlackStorm/BlackStorm)](https://replit.com/@TeamBlackStorm/BLACK-STORM-2)
 
-Made with 💕 by [@TeamUltroid](https://t.me/TeamUltroid). <br />
+Made with 💕 by [GAURAV🇮🇳](https://t.me/LEGENDXGAURAV). <br />
 
-# License
-Ultroid is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) v3 or later.
 
-[![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)
-
-# Credits
-* [![TeamUltroid-Devs](https://img.shields.io/static/v1?label=Teamultroid&message=devs&color=critical)](https://t.me/UltroidDevs)
-* [Lonami](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
-* [MarshalX](https://github.com/MarshalX) for [PyTgCalls.](https://github.com/MarshalX/tgcalls)
+# Credit
+* [![TeamBlackStorm-Gaurav](https://img.shields.io/static/v1?label=TeamBlackStorm&message=Gaurav&color=critical)](https://t.me/LEGENDXGAURAV)
 
