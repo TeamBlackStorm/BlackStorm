@@ -1,9 +1,9 @@
-# blackstorm
+# BLACK STORM
 <p align="center">
   <img src="https://telegra.ph/file/ef22363c8985c64195ebc.jpg">
 </p>
 <h1 align="center">
-  <b>Ultroid - UserBot</b>
+  <b>BlackStorm - UserBot</b>
 </h1>
 
 <b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon.</b>   
