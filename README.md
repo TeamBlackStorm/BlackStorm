@@ -18,7 +18,6 @@
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TeamBlackStorm/blackstorm)   
 [![Contributors](https://img.shields.io/github/contributors/TeamBlackStorm/blackstorm?style=flat-square&color=green)](https://github.com/TeamBlackStorm/blackstorm/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/TeamUltroid/Ultroid/blob/main/LICENSE)
 ----
 
 # Deploy
