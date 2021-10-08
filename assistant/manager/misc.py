@@ -1,9 +1,7 @@
-# Ultroid - UserBot
-# Copyright (C) 2021 TeamUltroid
+# blackstorm - UserBot
+# Copyright (C) 2021 TeamBlackStorm
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# This file is a part of < https://github.com/TeamBlackStorm/blackstorm/ >
 
 
 import aiohttp
@@ -11,7 +9,7 @@ import aiohttp
 from . import *
 
 
-@ultroid_cmd(pattern="echo ?(.*)", type=["manager"])
+@blackstorm_cmd(pattern="echo ?(.*)", type=["manager"])
 async def oqha(e):
     match = e.pattern_match.group(1)
     if match:
@@ -25,7 +23,7 @@ async def oqha(e):
     await e.client.send_message(e.chat_id, text, reply_to=reply_to)
 
 
-@ultroid_cmd(pattern="kickme$", type=["manager"], allow_all=True)
+@blackstorm_cmd(pattern="kickme$", type=["manager"], allow_all=True)
 async def doit(e):
     if e.sender_id in DEVLIST:
         return await eod(e, "`I will Not Kick You, my Developer..`")
@@ -36,7 +34,7 @@ async def doit(e):
     await eor(e, "Yes, You are right, get out.", time=5)
 
 
-@ultroid_cmd(pattern="joke$", type=["manager"])
+@blackstorm_cmd(pattern="joke$", type=["manager"])
 async def do_joke(e):
     e = await e.get_reply_message() if e.is_reply else e
     link = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single"
