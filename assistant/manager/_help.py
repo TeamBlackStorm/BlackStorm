@@ -1,9 +1,7 @@
-# Ultroid - UserBot
-# Copyright (C) 2021 TeamUltroid
+# blackstorm - UserBot
+# Copyright (C) 2021 TeamBlackStorm
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# This file is a part of < https://github.com/TeamBlackStorm/blackstorm/ >
 
 from . import *
 
@@ -12,7 +10,7 @@ START = """
 ✘  /start : Check I am Alive or not.
 ✘  /help : Get This Message.
 ✘  /repo : Get Bot's Repo..
-🧑‍💻 Join **@TheUltroid**
+🧑‍💻 Join **@BlackStormOP**
 """
 
 ADMINTOOLS = """✘ **AdminTools** ✘
