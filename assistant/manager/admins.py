@@ -1,14 +1,12 @@
-# Ultroid - UserBot
-# Copyright (C) 2021 TeamUltroid
+# blackstorm - UserBot
+# Copyright (C) 2021 TeamBlackStorm
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# This file is a part of < https://github.com/TeamBlackStorm/blackstorm/ >
 
 from . import *
 
 
-@ultroid_cmd(pattern="dkick", type=["manager", "official"])
+@blackstorm_cmd(pattern="dkick", type=["manager", "official"])
 async def dowj(e):
     replied = await e.get_reply_message()
     if replied:
@@ -23,7 +21,7 @@ async def dowj(e):
         await eor(e, str(E))
 
 
-@ultroid_cmd(pattern="dban", type=["manager", "official"])
+@blackstorm_cmd(pattern="dban", type=["manager", "official"])
 async def dowj(e):
     replied = await e.get_reply_message()
     if replied:
